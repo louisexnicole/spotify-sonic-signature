@@ -1,0 +1,24 @@
+# Virtual environment
+.sonicvenv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Raw datasets
+data/raw/
+*.csv
+*.zip
+src/archive/
+
+# Temporary files
+.DS_Store
+
+# Large cleaned dataset (regenerate with: python src/prepare_data.py)
+data/processed/spotify_clean.csv
